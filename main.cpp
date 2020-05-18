@@ -189,7 +189,7 @@ int main()
 				switch(ch){
 						case 1:
 							
-								fp=fopen("seats_reserved.txt_plane", "r");
+								fp=fopen("seats_reserved_plane.txt", "r");
 								if(fp==NULL)
 									{
 										printf("Error in opening file..!!");
